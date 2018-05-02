@@ -1,0 +1,25 @@
+{
+  "name": "chattrbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "diet": "^0.16.0",
+    "diet-static": "^2.2.0",
+    "file-extension": "^4.0.2",
+    "mime": "^2.2.0",
+    "mime-types": "^2.1.18",
+    "node-static": "^0.7.10",
+    "ws": "^5.1.0"
+  }
+}
